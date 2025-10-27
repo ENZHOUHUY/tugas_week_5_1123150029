@@ -9,6 +9,10 @@ class MyHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'tugas week 5 enzho',
+      
+    );
   }
 }
