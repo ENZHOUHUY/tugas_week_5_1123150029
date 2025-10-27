@@ -25,8 +25,9 @@ class One extends StatelessWidget {
     return Scaffold(
             appBar: AppBar(
               title: const Text("Home Page"),
+              backgroundColor: Colors.deepOrange,
               actions: const [
-                
+
               ],
             ),
             body: SingleChildScrollView(
