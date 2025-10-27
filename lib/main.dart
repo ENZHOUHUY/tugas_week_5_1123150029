@@ -57,6 +57,11 @@ class One extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.red,
                       borderRadius: BorderRadius.circular(100),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GI-td9gs8D5OKZd19mAOqA.png"
+                          )
+                      ),
                       border: Border.all(
                         color: Colors.black,
                         width: 5,
