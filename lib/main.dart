@@ -12,7 +12,16 @@ class MyHome extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'tugas week 5 enzho',
-      
+      home: One(),
     );
+  }
+}
+
+class One extends StatelessWidget {
+  const One({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
