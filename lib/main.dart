@@ -50,6 +50,19 @@ class One extends StatelessWidget {
                       ),
                     ),
                   ),
+                  Container(
+                    height: 150,
+                    width: 150,
+                    margin: EdgeInsets.only(top: 30),
+                    decoration: BoxDecoration(
+                      color: Colors.red,
+                      borderRadius: BorderRadius.circular(100),
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 5,
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
