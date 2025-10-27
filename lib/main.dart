@@ -33,12 +33,16 @@ class One extends StatelessWidget {
                 SizedBox(width: 30,),
               ],
             ),
-            body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: const Column(
-                  children: [],
-                ),
+            body: Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 50,
+                    width: 50,
+                    color: Colors.red,
+                  ),
+                ],
               ),
             ),
           );
