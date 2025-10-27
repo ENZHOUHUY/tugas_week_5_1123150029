@@ -24,8 +24,10 @@ class One extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
             appBar: AppBar(
-              title: const Text("Dashboard"),
-              actions: const [],
+              title: const Text("Home Page"),
+              actions: const [
+                
+              ],
             ),
             body: SingleChildScrollView(
               child: Container(
