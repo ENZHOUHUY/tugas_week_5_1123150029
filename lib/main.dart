@@ -40,7 +40,11 @@ class One extends StatelessWidget {
                   Container(
                     height: 50,
                     width: 50,
-                    color: Colors.red,
+                    margin: EdgeInsets.only(top: 30),
+                    decoration: BoxDecoration(
+                      color: Colors.red,
+                      borderRadius: BorderRadius.circular(100)
+                    ),
                   ),
                 ],
               ),
