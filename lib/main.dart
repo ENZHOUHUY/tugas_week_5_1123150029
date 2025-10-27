@@ -28,7 +28,9 @@ class One extends StatelessWidget {
               backgroundColor: Colors.deepOrange,
               actions: const [
                 Icon(Icons.zoom_out_sharp),
+                SizedBox(width: 30,),
                 Icon(Icons.accessibility_outlined),
+                SizedBox(width: 30,),
               ],
             ),
             body: SingleChildScrollView(
