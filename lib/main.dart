@@ -38,12 +38,16 @@ class One extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    height: 50,
-                    width: 50,
+                    height: 150,
+                    width: 150,
                     margin: EdgeInsets.only(top: 30),
                     decoration: BoxDecoration(
                       color: Colors.red,
-                      borderRadius: BorderRadius.circular(100)
+                      borderRadius: BorderRadius.circular(100),
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 5,
+                      ),
                     ),
                   ),
                 ],
