@@ -44,6 +44,11 @@ class One extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.red,
                       borderRadius: BorderRadius.circular(100),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Meme_Man_on_transparent_background.webp/316px-Meme_Man_on_transparent_background.webp.png"
+                          )
+                      ),
                       border: Border.all(
                         color: Colors.black,
                         width: 5,
